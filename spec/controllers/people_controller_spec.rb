@@ -5,7 +5,6 @@ describe Api::V1::PeopleController do
   before(:each) do
     Person.create!(:name => 'Mark Twain',      :occupation => 'Author', :fictional => false)
     Person.create!(:name => 'Kurt Vonnegut',   :occupation => 'Author', :fictional => false)
-    Person.create!(:name => 'Jules Winnfield', :occupation => 'Hitman', :fictional => true)
     Person.create!(:name => 'Bruce Wayne',     :occupation => 'Batman', :fictional => true)
   end
 
